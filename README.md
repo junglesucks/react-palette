@@ -1,18 +1,28 @@
-# REACT PALETTE
+<p align="center">
+  <h1 align="center">React Palette</h1>
+</p>
 
-Extract prominent colors from an image
+<h3 align="center">
+	Extract prominent colors from an image
+</h3>
 
-[![Build Status](https://travis-ci.org/leonardokl/react-palette.svg?branch=master)](https://travis-ci.org/leonardokl/react-palette)
-[![Coverage Status](https://coveralls.io/repos/github/leonardokl/react-palette/badge.svg?branch=master)](https://coveralls.io/github/leonardokl/react-palette?branch=master)
+<p align="center">
+  <a aria-label="Tests status" href="https://github.com/confuser/react-palette/actions/workflows/build.yaml">
+    <img alt="" src="https://img.shields.io/github/workflow/status/confuser/react-palette/Node.js%20CI?label=Tests&style=for-the-badge&labelColor=000000">
+  </a>
+  <a aria-label="License" href="https://github.com/confuser/react-palette/blob/master/LICENSE">
+    <img alt="" src="https://img.shields.io/github/license/confuser/react-palette?labelColor=000&style=for-the-badge">
+  </a>
+</p>
 
 ## Install
 ```
-npm i -S react-palette
+npm i @confuser/react-palette
 ```
 
 ## Usage
 ```jsx
-import Palette from 'react-palette';
+import Palette from '@confuser/react-palette';
 // In your render...
 <Palette src={IMAGE_URL}>
   {({ data, loading, error }) => (
@@ -24,7 +34,7 @@ import Palette from 'react-palette';
 ```
 
 ```jsx
-import { usePalette } from 'react-palette'
+import { usePalette } from '@confuser/react-palette'
 
 const { data, loading, error } = usePalette(IMAGE_URL)
 
