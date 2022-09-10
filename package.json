@@ -1,5 +1,5 @@
 {
-  "name": "react-palette",
+  "name": "@confuser/react-palette",
   "version": "1.0.2",
   "description": "",
   "main": "dist/react-palette.js",
@@ -31,8 +31,8 @@
     "src"
   ],
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "16 || 17 || 18",
+    "react-dom": "16 || 17 || 18"
   },
   "dependencies": {
     "lodash.camelcase": "^4.3.0",
