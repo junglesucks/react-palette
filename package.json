@@ -21,11 +21,11 @@
     "palette",
     "dominant color"
   ],
-  "author": "Leonardo Luiz <leonardokl@hotmail.com>",
+  "author": "James Mortemore (jamesmortemore@gmail.com)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/leonardokl/react-palette.git"
+    "url": "git://github.com/confuser/react-palette.git"
   },
   "files": [
     "dist",
