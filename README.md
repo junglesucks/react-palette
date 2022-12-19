@@ -7,22 +7,22 @@
 </h3>
 
 <p align="center">
-  <a aria-label="Tests status" href="https://github.com/confuser/react-palette/actions/workflows/build.yaml">
-    <img alt="" src="https://img.shields.io/github/workflow/status/confuser/react-palette/Node.js%20CI?label=Tests&style=for-the-badge&labelColor=000000">
+  <a aria-label="Tests status" href="https://github.com/junglesucks/react-palette/actions/workflows/build.yaml">
+    <img alt="" src="https://img.shields.io/github/workflow/status/junglesucks/react-palette/Node.js%20CI?label=Tests&style=for-the-badge&labelColor=000000">
   </a>
-  <a aria-label="License" href="https://github.com/confuser/react-palette/blob/master/LICENSE">
-    <img alt="" src="https://img.shields.io/github/license/confuser/react-palette?labelColor=000&style=for-the-badge">
+  <a aria-label="License" href="https://github.com/junglesucks/react-palette/blob/master/LICENSE">
+    <img alt="" src="https://img.shields.io/github/license/junglesucks/react-palette?labelColor=000&style=for-the-badge">
   </a>
 </p>
 
 ## Install
 ```
-npm i @confuser/react-palette
+npm i @junglesucks/react-palette
 ```
 
 ## Usage
 ```jsx
-import Palette from '@confuser/react-palette';
+import Palette from '@junglesucks/react-palette';
 // In your render...
 <Palette src={IMAGE_URL}>
   {({ data, loading, error }) => (
@@ -34,7 +34,7 @@ import Palette from '@confuser/react-palette';
 ```
 
 ```jsx
-import { usePalette } from '@confuser/react-palette'
+import { usePalette } from '@junglesucks/react-palette'
 
 const { data, loading, error } = usePalette(IMAGE_URL)
 

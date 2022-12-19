@@ -1,5 +1,5 @@
 {
-  "name": "@confuser/react-palette",
+  "name": "@junglesucks/react-palette",
   "version": "1.0.2",
   "description": "",
   "main": "dist/react-palette.js",
@@ -21,11 +21,11 @@
     "palette",
     "dominant color"
   ],
-  "author": "James Mortemore (jamesmortemore@gmail.com)",
+  "author": "Junglesucks (junglesucks2much@gmail.com)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/confuser/react-palette.git"
+    "url": "git://github.com/junglesucks/react-palette.git"
   },
   "files": [
     "dist",
