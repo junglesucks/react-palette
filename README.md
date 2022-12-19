@@ -55,7 +55,7 @@ const { data, loading, error } = usePalette(IMAGE_URL)
 }
 ```
 
-## Notes
+## Note
 
 That library was created using `node-vibrant` to extract the prominent colors.
 
