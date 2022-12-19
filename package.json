@@ -1,7 +1,7 @@
 {
   "name": "@junglesucks/react-palette",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.4",
+  "description": "<p align=\"center\">\r   <h1 align=\"center\">React Palette</h1>\r </p>",
   "main": "dist/react-palette.js",
   "umd:main": "dist/react-palette.umd.js",
   "module": "dist/react-palette.mjs",
@@ -66,5 +66,9 @@
         }
       }
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/junglesucks/react-palette/issues"
+  },
+  "homepage": "https://github.com/junglesucks/react-palette#readme"
 }
