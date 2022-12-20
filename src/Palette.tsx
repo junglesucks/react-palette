@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode,Fragment } from "react";
 import { PaletteState, usePalette } from "./usePalette";
 
 export type PaletteProps = {
