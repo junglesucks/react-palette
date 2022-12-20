@@ -12,7 +12,7 @@
     "test:watch": "npm test -- --watch",
     "test:coverage": "npm test -- --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "build": "microbundle --jsx React.createElement",
+    "build": "microbundle --jsx React.createElement --tsconfig ./tsconfig.json",
     "preversion": "npm test && npm run build",
     "postversion": "git push && git push --tags && npm publish",
     "prepare": "npm run build"

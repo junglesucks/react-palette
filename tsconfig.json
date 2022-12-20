@@ -3,7 +3,8 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "target": "es5",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": [ "es2015" ]
   },
   "exclude": ["src/__mocks__", "src/__tests__"]
 }
